@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in VHDL code: counter overflow. The provided VHDL code implements a simple 4-bit counter. However, if the clock keeps running without a reset, it could reach its limit, 15, and then unexpectedly wrap around or produce undefined behavior, leading to incorrect outputs.
